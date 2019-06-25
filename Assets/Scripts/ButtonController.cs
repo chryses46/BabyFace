@@ -14,7 +14,7 @@ namespace BabyGame
 
         public void PlayGame()
         {
-            if(CrossPlatformInputManager.GetAxis("Fire1") == 0)
+            if(Input.touchCount>0) // replacing Input.touchCount>0 for now
             {
                 Debug.Log("Clicked");
                 SceneManager.LoadScene(1);
