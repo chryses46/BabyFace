@@ -17,7 +17,6 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
-        PlayGame();
     }
 
     private void PlayGame()
